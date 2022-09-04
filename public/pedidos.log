@@ -1,0 +1,84 @@
+2022-09-03T11:06:33.441Z [pedidos já] info: GET /pedidos
+2022-09-03T11:18:37.752Z [pedidos já] info: GET /maisPedidos
+2022-09-03T11:19:07.047Z [pedidos já] info: GET /maisPedidos
+2022-09-03T11:19:27.962Z [pedidos já] info: GET /maisPedidos
+2022-09-03T11:29:19.213Z [pedidos já] info: GET /maisPedidos
+2022-09-03T11:29:45.899Z [pedidos já] info: GET /pedidos
+2022-09-03T11:35:15.964Z [pedidos já] info: GET /maisPedidos
+2022-09-03T11:38:32.273Z [pedidos já] info: GET /maisPedidos
+2022-09-03T11:48:46.376Z [pedidos já] info: GET /maisPedidos
+2022-09-03T11:53:20.997Z [pedidos já] info: GET /maisPedidos
+2022-09-03T11:54:20.645Z [pedidos já] info: GET /maisPedidos
+2022-09-03T11:57:50.740Z [pedidos já] info: GET /maisPedidos
+2022-09-03T11:58:05.706Z [pedidos já] info: GET /maisPedidos
+2022-09-03T12:00:29.448Z [pedidos já] info: GET /pedidos
+2022-09-03T12:19:55.993Z [pedidos já] info: POST /pedido/novoPedido - {"id":501,"produto":"Pizza Napolitana","cliente":"Marcelo Vergara","valor":120,"entregue":false,"timestamp":"2022-09-03T12:19:55.987Z"}
+2022-09-03T12:20:44.557Z [pedidos já] info: POST /pedido/novoPedido - {"id":502,"produto":"Pizza Napolitana","cliente":"JR Test","valor":100,"entregue":false,"timestamp":"2022-09-03T12:20:44.540Z"}
+2022-09-03T13:15:11.945Z [pedidos já] info: GET /pedidos
+2022-09-03T13:28:19.429Z [pedidos já] info: GET /pedidos
+2022-09-03T13:29:20.529Z [pedidos já] info: POST /pedido/novoPedido - {"id":503,"produto":"Pizza Napolitana","cliente":"JR Test 2","valor":100,"entregue":false,"timestamp":"2022-09-03T13:29:20.521Z"}
+2022-09-03T13:59:49.255Z [pedidos já] info: POST /pedido/updateStatus - {"id":503,"entregue":true}
+2022-09-03T13:59:56.582Z [pedidos já] info: POST /pedido/updateStatus - {"id":503,"entregue":false}
+2022-09-03T14:00:30.239Z [pedidos já] info: POST /pedido/updateStatus - {"id":503,"entregue":false}
+2022-09-03T14:01:11.512Z [pedidos já] info: POST /pedido/updateStatus - {"id":503,"entregue":false}
+2022-09-03T14:01:22.078Z [pedidos já] info: POST /pedido/updateStatus - {"id":503,"entregue":true}
+2022-09-03T14:04:13.469Z [pedidos já] info: POST /pedido/updatePedido - {"id":502,"produto":"Pizza Napolitana","cliente":"JR Test 11","valor":120,"entregue":true,"timestamp":"2022-09-03T12:20:44.540Z"}
+2022-09-03T14:40:35.876Z [pedidos já] info: DELETE /deletePedido
+2022-09-03T14:49:51.968Z [pedidos já] info: GET /consultaPedido/500
+2022-09-03T14:50:02.731Z [pedidos já] info: GET /consultaPedido/500
+2022-09-03T14:50:20.343Z [pedidos já] info: GET /consultaPedido/500
+2022-09-03T14:50:36.508Z [pedidos já] info: GET /consultaPedido/500
+2022-09-03T14:50:48.539Z [pedidos já] info: GET /consultaPedido/500
+2022-09-03T14:51:52.578Z [pedidos já] info: POST /pedido/updateStatus - {"id":1,"entregue":false}
+2022-09-03T14:52:19.455Z [pedidos já] info: POST /pedido/updateStatus - {"id":1,"entregue":false}
+2022-09-03T14:52:31.288Z [pedidos já] info: POST /pedido/novoPedido - {"id":501,"produto":"Pizza Napolitana","cliente":"JR Test","valor":100,"entregue":false,"timestamp":"2022-09-03T14:52:31.282Z"}
+2022-09-03T14:52:49.528Z [pedidos já] info: DELETE /deletePedido/:501
+2022-09-03T14:54:13.857Z [pedidos já] info: DELETE /deletePedido/:1
+2022-09-03T14:55:20.734Z [pedidos já] info: DELETE /deletePedido/:1
+2022-09-03T14:56:55.768Z [pedidos já] info: DELETE /deletePedido/:1
+2022-09-03T14:57:22.545Z [pedidos já] info: DELETE /deletePedido/:1
+2022-09-03T14:58:02.061Z [pedidos já] info: DELETE /deletePedido/:1
+2022-09-03T14:59:21.534Z [pedidos já] info: POST /pedido/novoPedido - {"id":501,"produto":"Pizza Napolitana","cliente":"JR Test","valor":100,"entregue":false,"timestamp":"2022-09-03T14:59:21.527Z"}
+2022-09-03T14:59:36.527Z [pedidos já] info: DELETE /deletePedido/501
+2022-09-03T15:01:21.277Z [pedidos já] info: POST /pedido/novoPedido - {"id":501,"produto":"Pizza Napolitana","cliente":"JR Test","valor":100,"entregue":false,"timestamp":"2022-09-03T15:01:21.272Z"}
+2022-09-03T15:01:40.159Z [pedidos já] info: DELETE /deletePedido/501
+2022-09-03T15:02:31.605Z [pedidos já] info: DELETE /deletePedido/501
+2022-09-03T15:02:44.139Z [pedidos já] info: GET /consultaPedido/500
+2022-09-03T15:03:33.344Z [pedidos já] info: GET /consultaPedido/500
+2022-09-03T15:04:50.333Z [pedidos já] info: GET /consultaPedido/500
+2022-09-03T15:05:20.988Z [pedidos já] info: GET /consultaPedido/500
+2022-09-04T12:26:01.238Z [pedidos já] info: GET /consultaPedido/500
+2022-09-04T12:47:34.520Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"Marcelo"}
+2022-09-04T12:48:31.035Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"Marcelo"}
+2022-09-04T12:49:33.891Z [pedidos já] info: GET /pedidos
+2022-09-04T12:49:47.902Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"Tália Simas"}
+2022-09-04T12:50:28.797Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"Tália Simas"}
+2022-09-04T12:53:13.389Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"Tália Simas"}
+2022-09-04T12:53:31.010Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"Tália Simas"}
+2022-09-04T12:54:19.244Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"Tália Simas"}
+2022-09-04T12:54:29.445Z [pedidos já] info: POST /pedido/novoPedido - {"id":502,"produto":"Pizza Napolitana","cliente":"JR Test","valor":100,"entregue":false,"timestamp":"2022-09-04T12:54:29.440Z"}
+2022-09-04T12:54:46.959Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"JR Test"}
+2022-09-04T12:54:57.857Z [pedidos já] info: POST /pedido/novoPedido - {"id":503,"produto":"Pizza Napolitana","cliente":"JR Test","valor":150,"entregue":false,"timestamp":"2022-09-04T12:54:57.848Z"}
+2022-09-04T12:55:03.478Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"JR Test"}
+2022-09-04T12:55:49.517Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"JR Test"}
+2022-09-04T12:56:28.411Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"JR Test"}
+2022-09-04T12:56:34.449Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"Tália Simas"}
+2022-09-04T12:57:45.653Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"Tália Simas"}
+2022-09-04T12:57:51.635Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"JR Test"}
+2022-09-04T13:17:48.410Z [pedidos já] info: POST /consultaPedidosProduto/- {"produto":"Pizza Napolitana"}
+2022-09-04T13:18:32.240Z [pedidos já] info: POST /consultaPedidosProduto/- {"produto":"Pizza Napolitana"}
+2022-09-04T13:19:36.347Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"Tália Simas"}
+2022-09-04T13:20:06.487Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"Clotilde Godoy"}
+2022-09-04T13:20:31.522Z [pedidos já] info: POST /consultaPedidosProduto/- {"produto":"Pizza Calabresa"}
+2022-09-04T13:21:06.186Z [pedidos já] info: POST /consultaPedidosProduto/- {"produto":"Pizza Calabresa"}
+2022-09-04T13:21:34.794Z [pedidos já] info: POST /consultaPedidosProduto/- {"produto":"Pizza Frango com Catupiry"}
+2022-09-04T13:21:58.729Z [pedidos já] info: GET /maisPedidos
+2022-09-04T13:22:57.535Z [pedidos já] info: GET /maisPedidos
+2022-09-04T13:24:15.410Z [pedidos já] info: POST /pedido/novoPedido - {"id":504,"produto":"Pizza Pepperoni","cliente":"Rosaura Azenha","valor":32.5,"entregue":false,"timestamp":"2022-09-04T13:24:15.405Z"}
+2022-09-04T13:24:37.247Z [pedidos já] info: POST /pedido/updateStatus - {"id":504,"entregue":true}
+2022-09-04T13:25:10.757Z [pedidos já] info: POST /consultaPedidosCliente/- {"cliente":"Rosaura Azenha"}
+2022-09-04T13:25:36.631Z [pedidos já] info: POST /consultaPedidosProduto/- {"produto":"Pizza Muçarela"}
+2022-09-04T13:26:14.478Z [pedidos já] info: DELETE /deletePedido/317
+2022-09-04T13:26:41.730Z [pedidos já] info: GET /consultaPedido/317
+2022-09-04T13:26:56.571Z [pedidos já] info: POST /consultaPedidosProduto/- {"produto":"Pizza Atum"}
+2022-09-04T13:27:15.241Z [pedidos já] info: GET /consultaPedido/216
